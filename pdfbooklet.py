@@ -82,8 +82,8 @@ def main():
     # on top.  US Letter is 612 x 792 pts (portrait)
     x = float(pageSize[0])
     y = float(pageSize[1])
-    xPrime = 792
-    yPrime = 612
+    xPrime = 842
+    yPrime = 595
     scale = 0.5 * xPrime / x
     scale2 = yPrime / y
     if (scale > scale2): scale = scale2
